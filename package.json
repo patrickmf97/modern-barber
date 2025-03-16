@@ -1,0 +1,16 @@
+{
+  "name": "barbearia",
+  "version": "1.0.0",
+  "description": "Página da Barbearia do Seu Zé",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss/styles.scss css/styles.css --watch"
+  },
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "sass": "^1.62.1"
+  }
+}
