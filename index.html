@@ -1,158 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barbearia Moderna</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- CSS Personalizado -->
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Cortes, barba e cuidados masculinos com atendimento personalizado. Agende seu horário na Modern Barber.">
+  <meta name="theme-color" content="#11100e"><title>Modern Barber | Corte, barba e estilo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"><link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="dark-theme">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <i class="fas fa-cut"></i> Barbearia Moderna
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#servicos">Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sobre">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero d-flex align-items-center">
-        <div class="container text-center">
-            <h1 class="display-4 fw-bold">Barbearia Moderna</h1>
-            <p class="lead">Estilo e precisão para homens modernos.</p>
-            <a href="#servicos" class="btn btn-primary btn-lg">
-                <i class="fas fa-chevron-down"></i> Conheça nossos serviços
-            </a>
-        </div>
-    </section>
-
-    <!-- Serviços -->
-    <section id="servicos" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5 fw-bold">Nossos Serviços</h2>
-            <div class="row text-center">
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow bg-dark text-white">
-                        <div class="card-body">
-                            <i class="fas fa-cut fa-3x mb-3 text-primary"></i>
-                            <h3 class="card-title">Corte de Cabelo</h3>
-                            <p class="card-text">Corte moderno e personalizado.</p>
-                            <p class="fw-bold">R$ 30,00</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow bg-dark text-white">
-                        <div class="card-body">
-                            <i class="fas fa-shower fa-3x mb-3 text-primary"></i>
-                            <h3 class="card-title">Barba</h3>
-                            <p class="card-text">Barba feita com precisão e cuidado.</p>
-                            <p class="fw-bold">R$ 20,00</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow bg-dark text-white">
-                        <div class="card-body">
-                            <i class="fas fa-gem fa-3x mb-3 text-primary"></i>
-                            <h3 class="card-title">Combo Completo</h3>
-                            <p class="card-text">Corte + Barba com desconto especial.</p>
-                            <p class="fw-bold">R$ 45,00</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sobre -->
-    <section id="sobre" class="py-5 bg-dark text-white">
-        <div class="container">
-            <h2 class="text-center mb-5 fw-bold">Sobre Nós</h2>
-            <div class="row align-items-center">
-                <!-- Imagem -->
-                <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a" alt="Sobre Nós" class="img-fluid rounded shadow">
-                </div>
-                <!-- Texto -->
-                <div class="col-md-6">
-                    <p class="lead">A Barbearia Moderna é um espaço dedicado ao cuidado masculino, combinando tradição e modernidade. Nossa equipe é formada por profissionais experientes que entendem as necessidades dos homens modernos.</p>
-                    <p>Oferecemos um ambiente acolhedor e serviços de alta qualidade, garantindo que você saia daqui com um visual impecável.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contato -->
-    <section id="contato" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5 fw-bold">Contato</h2>
-            <div class="row">
-                <div class="col-md-6 mx-auto">
-                    <form>
-                        <div class="mb-3">
-                            <label for="nome" class="form-label">Nome</label>
-                            <input type="text" class="form-control bg-dark text-white" id="nome" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control bg-dark text-white" id="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="mensagem" class="form-label">Mensagem</label>
-                            <textarea class="form-control bg-dark text-white" id="mensagem" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100">
-                            <i class="fas fa-paper-plane"></i> Enviar Mensagem
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-4">
-        <div class="container">
-            <p class="mb-0">&copy; 2025 Barbearia Moderna. Todos os direitos reservados.</p>
-            <div class="mt-3">
-                <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
-                <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="#" class="text-white"><i class="fab fa-whatsapp fa-2x"></i></a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Seu JS -->
-    <script src="js/main.js"></script>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Navegação principal"><div class="container">
+    <a class="navbar-brand" href="#inicio" aria-label="Modern Barber, início"><span class="brand-mark"><i class="fa-solid fa-scissors"></i></span><span>MODERN <strong>BARBER</strong></span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarNav"><ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+      <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li><li class="nav-item"><a class="nav-link" href="#sobre">A barbearia</a></li><li class="nav-item"><a class="nav-link" href="#avaliacoes">Avaliações</a></li><li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      <li class="nav-item ms-lg-2"><a class="btn btn-brand js-booking" href="#contato">Agendar horário</a></li>
+    </ul></div>
+  </div></nav>
+  <main>
+    <section id="inicio" class="hero"><div class="hero-overlay"></div><div class="container hero-content"><div class="row"><div class="col-lg-8 col-xl-7 reveal">
+      <span class="eyebrow">Tradição. Técnica. Personalidade.</span><h1>Seu melhor estilo começa aqui.</h1><p>Cortes precisos, barba bem cuidada e uma experiência feita para você sair renovado.</p>
+      <div class="d-flex flex-column flex-sm-row gap-3"><a class="btn btn-brand btn-lg js-booking" href="#contato"><i class="fa-brands fa-whatsapp"></i> Agendar agora</a><a class="btn btn-outline-light btn-lg" href="#servicos">Ver serviços</a></div>
+      <div class="hero-proof"><span><i class="fa-solid fa-star"></i> 4,9 de avaliação</span><span><i class="fa-regular fa-clock"></i> Atendimento com hora marcada</span></div>
+    </div></div></div></section>
+    <section id="servicos" class="section-padding"><div class="container">
+      <div class="section-heading text-center reveal"><span class="eyebrow">Escolha seu cuidado</span><h2>Serviços que elevam seu visual</h2><p>Atendimento cuidadoso do primeiro detalhe ao acabamento.</p></div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4 reveal"><article class="service-card"><span class="service-icon"><i class="fa-solid fa-scissors"></i></span><div><h3>Corte</h3><p>Consultoria rápida, corte personalizado e finalização.</p></div><div class="service-footer"><strong>R$ 30</strong><a href="#" class="service-link js-service" data-service="Corte">Agendar <i class="fa-solid fa-arrow-right"></i></a></div></article></div>
+        <div class="col-md-6 col-lg-4 reveal"><article class="service-card featured"><span class="popular-label">Mais escolhido</span><span class="service-icon"><i class="fa-solid fa-gem"></i></span><div><h3>Combo completo</h3><p>Corte e barba para uma transformação completa.</p></div><div class="service-footer"><strong>R$ 45</strong><a href="#" class="service-link js-service" data-service="Combo completo">Agendar <i class="fa-solid fa-arrow-right"></i></a></div></article></div>
+        <div class="col-md-6 col-lg-4 reveal"><article class="service-card"><span class="service-icon"><i class="fa-solid fa-pump-soap"></i></span><div><h3>Barba</h3><p>Desenho, toalha quente e acabamento preciso.</p></div><div class="service-footer"><strong>R$ 20</strong><a href="#" class="service-link js-service" data-service="Barba">Agendar <i class="fa-solid fa-arrow-right"></i></a></div></article></div>
+      </div>
+    </div></section>
+    <section id="sobre" class="about section-padding"><div class="container"><div class="row align-items-center g-5">
+      <div class="col-lg-6 reveal"><div class="about-image"><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1200&q=85" alt="Barbeiro realizando acabamento no corte de um cliente" loading="lazy"><div class="experience-badge"><strong>+1.500</strong><span>clientes atendidos</span></div></div></div>
+      <div class="col-lg-6 reveal"><span class="eyebrow">Muito além do corte</span><h2>Um espaço para cuidar do seu estilo</h2><p class="lead">Na Modern Barber, tradição e técnica se encontram em um ambiente confortável, com atenção real ao que combina com você.</p>
+        <ul class="benefit-list"><li><i class="fa-solid fa-check"></i><span><strong>Profissionais experientes</strong><small>Atendimento consultivo e acabamento detalhado.</small></span></li><li><i class="fa-solid fa-check"></i><span><strong>Horário reservado</strong><small>Menos espera e mais comodidade no seu dia.</small></span></li><li><i class="fa-solid fa-check"></i><span><strong>Ambiente completo</strong><small>Conforto, boa conversa e produtos selecionados.</small></span></li></ul>
+        <a class="btn btn-brand js-booking" href="#contato">Quero agendar</a>
+      </div>
+    </div></div></section>
+    <section id="avaliacoes" class="section-padding"><div class="container"><div class="section-heading text-center reveal"><span class="eyebrow">Quem vem, recomenda</span><h2>Experiências dos clientes</h2></div><div class="row g-4">
+      <div class="col-md-4 reveal"><blockquote class="review-card"><div class="stars" aria-label="5 estrelas">★★★★★</div><p>“Atendimento pontual e corte exatamente como pedi. O cuidado nos detalhes faz diferença.”</p><footer><span>RM</span><div><strong>Rafael M.</strong><small>Cliente</small></div></footer></blockquote></div>
+      <div class="col-md-4 reveal"><blockquote class="review-card"><div class="stars" aria-label="5 estrelas">★★★★★</div><p>“Ambiente agradável, equipe atenciosa e barba muito bem feita. Virei cliente.”</p><footer><span>LS</span><div><strong>Lucas S.</strong><small>Cliente</small></div></footer></blockquote></div>
+      <div class="col-md-4 reveal"><blockquote class="review-card"><div class="stars" aria-label="5 estrelas">★★★★★</div><p>“Agendamento simples e sem espera. O combo vale muito a pena.”</p><footer><span>AC</span><div><strong>André C.</strong><small>Cliente</small></div></footer></blockquote></div>
+    </div></div></section>
+    <section id="contato" class="contact section-padding"><div class="container"><div class="contact-panel reveal"><div class="row g-5 align-items-center">
+      <div class="col-lg-5"><span class="eyebrow">Seu próximo corte</span><h2>Reserve seu horário</h2><p>Preencha os dados e enviaremos a solicitação direto para o WhatsApp da barbearia.</p><div class="contact-info"><p><i class="fa-regular fa-clock"></i><span><strong>Horários</strong><small>Terça a sábado, 9h às 20h</small></span></p><p><i class="fa-solid fa-location-dot"></i><span><strong>Localização</strong><small>Configure o endereço da barbearia</small></span></p></div></div>
+      <div class="col-lg-7"><form id="booking-form" class="booking-form"><div class="row g-3">
+        <div class="col-md-6"><label for="nome" class="form-label">Seu nome</label><input type="text" class="form-control" id="nome" autocomplete="name" required></div><div class="col-md-6"><label for="telefone" class="form-label">WhatsApp</label><input type="tel" class="form-control" id="telefone" autocomplete="tel" placeholder="(21) 99999-9999" required></div>
+        <div class="col-md-6"><label for="servico" class="form-label">Serviço</label><select id="servico" class="form-select" required><option value="">Selecione</option><option>Corte</option><option>Barba</option><option>Combo completo</option></select></div><div class="col-md-6"><label for="preferencia" class="form-label">Preferência</label><input type="text" class="form-control" id="preferencia" placeholder="Ex.: sábado à tarde"></div>
+        <div class="col-12"><button class="btn btn-brand btn-lg w-100" type="submit"><i class="fa-brands fa-whatsapp"></i> Solicitar agendamento</button></div>
+      </div><p class="form-note">Ao enviar, você será direcionado ao WhatsApp para confirmar o horário.</p></form></div>
+    </div></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3"><a class="navbar-brand" href="#inicio"><span class="brand-mark"><i class="fa-solid fa-scissors"></i></span><span>MODERN <strong>BARBER</strong></span></a><p>© <span id="current-year"></span> Modern Barber. Todos os direitos reservados.</p><div class="social-links"><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" class="js-booking" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></div></div></footer>
+  <a class="floating-whatsapp js-booking" href="#contato" aria-label="Agendar pelo WhatsApp"><i class="fa-brands fa-whatsapp"></i></a><div class="demo-notice" id="demo-notice" role="status">Configure o WhatsApp em <code>js/main.js</code> para ativar o envio direto.</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="js/main.js"></script>
 </body>
 </html>

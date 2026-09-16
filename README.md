@@ -1,6 +1,6 @@
-# 🚀 Modern Barber - Barbearia Moderna
+# Modern Barber — landing page comercial
 
-Bem-vindo ao **Modern Barber**, um site moderno e responsivo para barbearias, criado com HTML, CSS (Bootstrap) e JavaScript. Este projeto foi desenvolvido para oferecer uma experiência de usuário incrível, com design atraente e funcionalidades interativas.
+Landing page responsiva criada para demonstrar como uma barbearia pode apresentar seus serviços e transformar visitas em solicitações de agendamento pelo WhatsApp. Projeto de portfólio da **ConvertaStudio**.
 
 🔗 **Acesse o site:** [https://patrickmf97.github.io/modern-barber/](https://patrickmf97.github.io/modern-barber/)
 
@@ -8,11 +8,24 @@ Bem-vindo ao **Modern Barber**, um site moderno e responsivo para barbearias, cr
 
 ## 🎯 Objetivo
 
-O objetivo deste projeto é fornecer uma página web moderna e funcional para barbearias, com:
-- Design responsivo e adaptável a qualquer dispositivo.
-- Seções intuitivas (Home, Serviços, Sobre Nós, Contato).
-- Tema escuro moderno e ícones rebuscados.
-- Fácil personalização para atender às necessidades do seu negócio.
+O projeto inclui:
+
+- design responsivo para celular e desktop;
+- vitrine de serviços e preços;
+- seleção de serviço e formulário de pré-agendamento;
+- mensagem de WhatsApp preenchida automaticamente;
+- prova social, horários e informações comerciais;
+- animações leves com suporte a redução de movimento.
+
+## Configuração rápida
+
+No arquivo `js/main.js`, informe o número da empresa usando apenas dígitos:
+
+```js
+const BARBERSHOP_WHATSAPP = '5521999999999';
+```
+
+Antes de publicar para um cliente real, substitua também endereço, horários, preços, avaliações, fotos e links sociais presentes no `index.html`.
 
 ---
 
@@ -38,7 +51,7 @@ O objetivo deste projeto é fornecer uma página web moderna e funcional para ba
    cd modern-barber
    ```
 3. **Abra o projeto**:
-   - Abra o arquivo `index.html` no seu navegador.
+   - Abra `index.html` diretamente ou inicie um servidor local.
 
 4. **Personalize**:
    - Edite os arquivos HTML, CSS e JS para adaptar o site à sua barbearia.
